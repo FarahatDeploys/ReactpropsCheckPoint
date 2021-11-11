@@ -1,24 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ProfileMaker from "./Components/profile";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ProfileMaker>
+        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgomytech.gomycode.co%2Fen%2Fwelcome-to-gomycode-egypt%2F&psig=AOvVaw2OsVQN97LnKiE6q3CXnyHh&ust=1636394516160000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKC9z-DqhvQCFQAAAAAdAAAAABAD"s
+      </ProfileMaker>
+    </>
   );
 }
 
